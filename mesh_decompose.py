@@ -9,12 +9,12 @@ from bpy.types import Operator, Panel, Scene
 from bpy.utils import register_class, unregister_class
 
 bl_info = {
-    "name": "Knife Imprint",
+    "name": "Mesh Decompose",
     "description": "Shifts all selected objects to offset by Z-axis",
     "author": "Nikita Akimov, Paul Kotelevets",
     "version": (1, 0, 0),
     "blender": (2, 79, 0),
-    "location": "View3D > Tool panel > 1D > Knife Imprint",
+    "location": "View3D > Tool panel > 1D > Mesh Decompose",
     "doc_url": "https://github.com/Korchy/1d_mesh_decompose",
     "tracker_url": "https://github.com/Korchy/1d_mesh_decompose",
     "category": "All"
